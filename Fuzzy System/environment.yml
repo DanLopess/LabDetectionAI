@@ -1,0 +1,21 @@
+name: ist_ciic_env
+dependencies:
+  - python=3.10
+  - numpy
+  - scikit-learn
+  - notebook
+  - nb_conda_kernels
+  - matplotlib
+  - pip
+  - pandas
+  - pip:
+      - jupyter
+      - sympy
+      - ipython
+      - nose
+      - yapf
+      - seaborn
+      - psutil
+      - imblearn
+      - tqdm
+      - skfuzzy
